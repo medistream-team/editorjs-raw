@@ -1,6 +1,6 @@
 {
-  "name": "@editorjs/raw",
-  "version": "2.4.0",
+  "name": "@medistream/editorjs-raw",
+  "version": "2.5.0",
   "keywords": [
     "codex editor",
     "raw",
@@ -9,15 +9,15 @@
   ],
   "description": "Raw HTML Tool for Editor.js",
   "license": "MIT",
-  "repository": "https://github.com/editor-js/raw",
+  "repository": "https://github.com/medistream-team/editorjs-raw",
+  "author": {
+      "name": "medistream.team",
+      "email": "medistream.team@gmail.com"
+  },
   "main": "./dist/bundle.js",
   "scripts": {
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development --watch"
-  },
-  "author": {
-    "name": "CodeX",
-    "email": "team@codex.so"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
